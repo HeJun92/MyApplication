@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hsaee.myapplication.WelActivity">
+    <EditText
+        android:id="@+id/et_login"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+       />
+
+    <Button
+        android:layout_below="@+id/et_login"
+        android:id="@+id/btn_login"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="登录"/>
+</RelativeLayout>
